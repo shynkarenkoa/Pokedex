@@ -1,6 +1,6 @@
 "use strict"
 
-document.registerElement("pokedex-filter", class extends HTMLElement
+customElements.define("pokedex-filter", class extends HTMLElement
 {
     get type()
     {

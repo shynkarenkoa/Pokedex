@@ -1,6 +1,6 @@
 "use strict"
 
-document.registerElement("pokedex-card", class extends HTMLElement
+customElements.define("pokedex-card", class extends HTMLElement
 {
     get number()
     {
